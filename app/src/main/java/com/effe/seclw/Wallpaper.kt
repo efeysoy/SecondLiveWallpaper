@@ -14,9 +14,10 @@ class Wallpaper : AndroidLiveWallpaperService() {
         super.onCreateApplication()
 
         val config = AndroidApplicationConfiguration()
+
         config.numSamples = 3
 
-        initialize(WallpaperGame(), config)
+        initialize(WallpaperGame(getSharedPreferences("com.effe.seclw", 0)), config)
     }
 
 

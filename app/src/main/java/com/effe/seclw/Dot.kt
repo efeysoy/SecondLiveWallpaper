@@ -19,8 +19,8 @@ class Dot(p: PointF, size:Float, sr:ShapeRenderer){
             return (alpha <= 0)
         }
 
-    fun draw(delta:Float){
-        val dt = delta * 15
+    fun draw(delta:Float, edges:Int){
+        val dt = delta
         if (this.finished)
             return
 
@@ -32,7 +32,7 @@ class Dot(p: PointF, size:Float, sr:ShapeRenderer){
             alpha -= 0.1f * dt
         }
 
-        sr.circle(p.x, p.y, actualSize)
+        sr.circle(p.x, p.y, actualSize, edges)
 
     }
 }

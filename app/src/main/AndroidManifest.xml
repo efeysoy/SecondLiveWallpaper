@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <service android:name=".Wallpaper"
-            android:label="@string/app_name"
+            android:label="@string/settings_name"
             android:icon="@mipmap/ic_launcher"
             android:settingsActivity=".SettingsActivity"
             android:permission="android.permission.BIND_WALLPAPER">

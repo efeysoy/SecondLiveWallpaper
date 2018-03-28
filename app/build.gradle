@@ -33,4 +33,5 @@ dependencies {
     implementation files('libs/libgdx/gdx.jar')
     implementation files('libs/libgdx/gdx-backend-android.jar')
     implementation files('libs/libgdx/gdx-natives.jar')
+    compile 'com.pes.materialcolorpicker:library:1.2.2'
 }

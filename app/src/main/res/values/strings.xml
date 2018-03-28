@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">seclw</string>
+    <string name="app_name">Second Wallpaper</string>
+    <string name="settings_name">Second Wallpaper Settings</string>
 </resources>
