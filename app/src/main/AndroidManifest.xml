@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/sclw_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/sclw_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SettingsActivity">
@@ -20,7 +20,7 @@
         </activity>
         <service android:name=".Wallpaper"
             android:label="@string/settings_name"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@mipmap/sclw_launcher"
             android:settingsActivity=".SettingsActivity"
             android:permission="android.permission.BIND_WALLPAPER">
             <intent-filter>

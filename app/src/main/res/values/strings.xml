@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Second Wallpaper</string>
     <string name="settings_name">Second Wallpaper Settings</string>
+    <string name="edges">Edges</string>
+    <string name="speed">Speed</string>
+    <string name="color">Color</string>
 </resources>

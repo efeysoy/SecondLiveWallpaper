@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Second Duvar Kağıdı</string>
+    <string name="settings_name">Second Duvar Kağıdı</string>
+    <string name="edges">Kenarlar</string>
+    <string name="speed">Hız</string>
+    <string name="color">Renk</string>
+</resources>
